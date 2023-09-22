@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--MENU-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Barby</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Barbysinfondo1.png" alt="">
+            </div>
+            <h1>Barbara Diaz</h1>
+            <h2>Aprendiz de Full-stacks</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+           <h2>Sobre mi</h2>
+           <p><span>Hola, soy Barbara Diaz.</span> Estoy dispuesta aprender nuevas experiencias, estoy aprendiento de este nuevo mundo donde en la cual es 
+        muy interesante y unico, me gusta mucho los diseño y como combinar los colores, para tener mejor experiencia el publico.</p> 
+
+             <div class="fila">
+
+                <!--Datos personales-->
+                <div class="col">
+                    <h3>Datos personales</h3>
+
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            12-01-1998
+                        </li>
+                        <li>
+                            <strong>Telefóno</strong>
+                            0414-11-31-682
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            Adeleingdiaz@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Vzla, Caracas, El Valle
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Junior</span>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!--Interes-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-cookie-bite"></i>
+                            <span>POSTRES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-ticket"></i>
+                            <span>PELICULAS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+
+                    </div>
+                </div>
+             </div>
+        </div>
+        <button>
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+    </section>
+
+   <!--SECCION SKILLS-->
+   <section class="skills" id="skills">
+    <div class="contenido-seccion">
+        <h2>Skills</h2>
+        <div class="fila">
+            <!--Technical skills-->
+            <div class="col">
+                <h3>Technical Skills</h3>
+
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>25%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>25%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>JAVASCRIPT</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>15%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>RESPOTERIA</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Profession Skills-->
+            <div class="col">
+                <h3>Professional Skills</h3>
+
+                <div class="skill">
+                    <span>COMUNICACION</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>TRABAJO EN EQUIPO</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>CREATIVIDAD</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>DEDICACION</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <!--SECCION PORTAFOLIO-->
+   <section id="portafolio" class="portafolio">
+    <div class="contenido-seccion">
+        <h2>Portafolio</h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="img/listadetarea.png" alt="">
+                <div class="overlay">
+                    <h3>lista de tarea</h3>
+                    <p>Fotografia</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="img/listadecontacto.png" alt="">
+                <div class="overlay">
+                    <h3>lista de contactos</h3>
+                    <p>Fotografia</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <!--SECTION DE CONTACTO-->
+   <section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+
+            <!--Formulario-->
+            <div class="col">
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Numero telefonico">
+                <input type="text" placeholder="Direccion de correo">
+                <input type="text" placeholder="Tema">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button>
+                    Enviar mensaje
+                    <span class="overlay"></span>
+                </button>
+            </div>
+            <div class="col">
+                <img src="img/maps.jpg" alt="">
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <!--footer-->
+
+   <footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+    
+   </footer>
+   <script src="app.js"></script>
+</body>
+</html>
